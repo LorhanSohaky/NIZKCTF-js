@@ -20,7 +20,7 @@
   "firebaseConfig": {
     "apiKey": "AIzaSyCSUmch0zHcV-Vu0iyfR6uB2K2sWZXrcJ4",
     "authDomain": "ethereal-casing-270417.firebaseapp.com",
-    "databaseURL": "https://ethereal-casing-270417.firebaseio.com",
+    "databaseURL": "https://ethereal-casing-ctf-br-ranking-submissions.firebaseio.com",
     "projectId": "ethereal-casing-270417",
     "storageBucket": "ethereal-casing-270417.appspot.com",
     "messagingSenderId": "517262739877",
