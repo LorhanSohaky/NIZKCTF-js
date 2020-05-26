@@ -118,7 +118,7 @@
 import { mapState, mapActions } from "vuex";
 import { createPolling } from "@/utils";
 import { GitHub, GitLab } from "@/services/nizkctf";
-import * as Sentry from "@sentry/browser";
+//import * as Sentry from "@sentry/browser";
 import { API } from "@/services/api";
 
 import config from "@/config.json";
@@ -291,12 +291,12 @@ export default {
     },
     user(value) {
       if (value) {
-        Sentry.configureScope(scope => {
+        /* Sentry.configureScope(scope => {
           scope.setUser({
             id: value.username,
             username: value.name
           });
-        });
+        }); */
       }
 
       if (
